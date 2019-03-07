@@ -1,0 +1,4 @@
+FROM centos:7
+EXPOSE 8080
+CMD ["/bdd-rh-1551989620"]
+COPY ./ /
